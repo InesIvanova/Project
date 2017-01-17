@@ -8,11 +8,6 @@ class Program
 
         decimal money = decimal.Parse(Console.ReadLine());
 
-        if (money >= 50)
-        {
-            Console.WriteLine("I'll give it to IZdislav");
-            return;
-
             if (money>=50)
             {
                 if (money % 4 == 0)
@@ -33,8 +28,7 @@ class Program
 
             bool isHappy = true;
             
-        }
-
+        
 
         Console.WriteLine("I don't have enough money. Sorry! :( ;d");
 
