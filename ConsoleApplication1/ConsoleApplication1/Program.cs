@@ -12,8 +12,12 @@ namespace ConsoleApplication1
         {
             decimal money = decimal.Parse(Console.ReadLine());
 
-            if (money>=50)
+            if (money>50)
             {
+                if (money==50)
+                {
+                    Console.WriteLine("Izdislav is irritated");
+                }
                 Console.WriteLine("I'll give it to IZdislav");
                 return;
             } 
