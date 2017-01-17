@@ -23,7 +23,11 @@ namespace ConsoleApplication1
             } 
             
             
-                Console.WriteLine("I don't have enough money. Sorry! :( ;d");
+            Console.WriteLine("I don't have enough money. Sorry! :( ;d");
+
+            Console.WriteLine("Izdislav was here");
+
+            bool isHappy = true;
             
         }
     }
