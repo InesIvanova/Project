@@ -14,8 +14,15 @@ namespace ConsoleApplication1
 
             if (money>=50)
             {
-                Console.WriteLine("I'll give it to IZdislav");
-                return;
+                if (money % 4 == 0)
+                {
+                    Console.WriteLine("Vzimame parite za nas");
+                }
+                else
+                {
+                    Console.WriteLine("I'll give it to IZdislav");
+                    return;
+                }
             } 
             
             
